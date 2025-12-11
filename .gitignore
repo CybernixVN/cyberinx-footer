@@ -1,0 +1,6 @@
+# Ignore npm auth tokens and local npmrc files
+.npmrc
+footer-protect/.npmrc
+
+# Node artifacts
+node_modules/

@@ -1,0 +1,15 @@
+{
+  "name": "@cybernix/footer-protect",
+  "version": "1.0.0",
+  "description": "Small React Footer component",
+  "main": "index.js",
+  "private": false,
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USER/footer-protect.git"
+  }
+}
