@@ -5,8 +5,8 @@ Small React Footer component packaged for npm.
 Usage (CommonJS):
 
 ```js
-const React = require('react');
-const { Footer } = require('@cybernix/footer-protect');
+const React = require("react");
+const { Footer } = require("@cybernix/footer-protect");
 
 // Render <Footer /> in your React app
 ```
