@@ -1,6 +1,6 @@
 {
   "name": "@cybernix/footer-protect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small React Footer component",
   "main": "index.js",
   "private": false,
