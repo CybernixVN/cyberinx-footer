@@ -1,15 +1,32 @@
 {
   "name": "@cybernixvn/footer-protect",
   "version": "1.0.6",
-  "description": "Small React Footer component",
-  "main": "index.js",
   "private": false,
-  "license": "UNLICENSED",
-  "publishConfig": {
-    "access": "public"
+  "description": "Small React Footer component",
+  "keywords": [
+    "react",
+    "footer",
+    "component",
+    "cybernix",
+    "protected"
+  ],
+  "homepage": "https://github.com/CybernixVN/cyberinx-footer#readme",
+  "bugs": {
+    "url": "https://github.com/CybernixVN/cyberinx-footer/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CybernixVN/cyberinx-footer.git"
+  },
+  "license": "UNLICENSED",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
