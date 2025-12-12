@@ -1,0 +1,8 @@
+// Example .npmrc (DO NOT COMMIT)
+// Use a Granular Access Token with permissions for the @cybernixvn scope
+// Replace the placeholder below with your generated token (keep it secret).
+//registry.npmjs.org/:_authToken=REPLACE_WITH_YOUR_TOKEN
+
+# If you publish/install from GitHub Packages for a scoped package, use:
+@cybernixvn:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=REPLACE_WITH_YOUR_GITHUB_TOKEN

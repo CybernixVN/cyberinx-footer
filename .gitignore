@@ -1,11 +1,9 @@
-# Ignore npm auth tokens and local npmrc files
 .npmrc
 footer-protect/.npmrc
 
 # Node artifacts
 node_modules/
 
+# Environment files
 .env
-.env
-.npmrc
-node_modules/
+
