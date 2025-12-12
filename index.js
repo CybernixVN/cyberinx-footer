@@ -17,14 +17,22 @@ function Footer() {
           // ensure the link opens in a new tab
           if (!e.defaultPrevented) {
             try {
-              window.open("https://cybernix.vn", "_blank", "noopener,noreferrer");
+              window.open(
+                "https://cybernix.vn",
+                "_blank",
+                "noopener,noreferrer"
+              );
             } catch (err) {
               // fallback to location change
               window.location.href = "https://cybernix.vn";
             }
           }
         },
-        style: { color: "inherit", textDecoration: "underline", cursor: "pointer" },
+        style: {
+          color: "inherit",
+          textDecoration: "underline",
+          cursor: "pointer",
+        },
       },
       "© 2025 Cybernix.vn – All rights reserved."
     )
