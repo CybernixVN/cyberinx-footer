@@ -39,4 +39,8 @@ function Footer() {
   );
 }
 
-module.exports = { Footer };
+function AdminFooter() {
+  return Footer();
+}
+
+module.exports = { Footer, AdminFooter };
