@@ -12,7 +12,19 @@ function Footer() {
         href: "https://cybernix.vn",
         target: "_blank",
         rel: "noopener noreferrer",
-        style: { color: "inherit", textDecoration: "none" },
+        onClick: function (e) {
+          // in case default navigation is prevented by surrounding app,
+          // ensure the link opens in a new tab
+          if (!e.defaultPrevented) {
+            try {
+              window.open("https://cybernix.vn", "_blank", "noopener,noreferrer");
+            } catch (err) {
+              // fallback to location change
+              window.location.href = "https://cybernix.vn";
+            }
+          }
+        },
+        style: { color: "inherit", textDecoration: "underline", cursor: "pointer" },
       },
       "© 2025 Cybernix.vn – All rights reserved."
     )
