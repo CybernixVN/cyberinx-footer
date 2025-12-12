@@ -1,7 +1,0 @@
-// Example .npmrc for local publishing. DO NOT commit a real token.
-// Replace the placeholder below with your generated token (do NOT share it).
-//registry.npmjs.org/:_authToken=REPLACE_WITH_YOUR_TOKEN
-
-// If you prefer to scope the token to a registry, keep the above line.
-// For CI, store the token in a secret (e.g., GITHUB Actions secret) and set
-// NODE_AUTH_TOKEN environment variable when running `npm publish`.
